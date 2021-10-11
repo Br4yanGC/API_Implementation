@@ -2,7 +2,7 @@ create database restaurant;
 
 use restaurant;
 
-CREATE TABLE product (
+CREATE TABLE menu (
   dish varchar(255),
   price float,
   created_date datetime,
