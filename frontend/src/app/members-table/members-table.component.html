@@ -1,1 +1,14 @@
-<p>members-table works!</p>
+<table>
+    <tr>
+      <th>Dish</th>
+      <th>Price</th>
+      <th>Creation_date</th>
+      <th>Modification_date</th>
+    </tr>
+    <tr *ngFor="let member of members">
+      <td>{{member.dish}}</td>
+      <td>{{member.price}}</td>
+      <td>{{member.created_date}}</td>
+      <td>{{member.modified_date}}</td>
+    </tr>
+</table>
